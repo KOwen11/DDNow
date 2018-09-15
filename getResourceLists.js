@@ -1,4 +1,3 @@
-var DdNow = DdNow || {};
 var fs = require('fs');
 const http = require('http');
 
@@ -29,7 +28,6 @@ function httpGetRequest(rqstUrl) {
     res.on('end', () => {
       try {
         const parsedData = JSON.parse(rawData);
-        //console.log(parsedData);
         return parsedData;
       } catch (e) {
         console.error(e.message);
@@ -57,12 +55,4 @@ function init() {
   });
 }
 init();
-/*
-var testJsn = JSON.parse(fs.readFile('./rL1.json', function(err, data){
-  if (err){
-    return console.log(err);
-  }data.toString();
-}));
-console.log(testJsn); 
-*/
-  //var test = JSON.parse(getLists());
+
