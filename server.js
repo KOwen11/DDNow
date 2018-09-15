@@ -29,7 +29,8 @@ function httpGetRequest(rqstUrl) {
     res.on('end', () => {
       try {
         const parsedData = JSON.parse(rawData);
-        console.log(parsedData);
+        //console.log(parsedData);
+        return parsedData;
       } catch (e) {
         console.error(e.message);
       }
@@ -47,8 +48,8 @@ function init() {
     }
     var result = JSON.parse(data.toString());
     result.list.forEach(function(elem){
-      console.log("http://www.dnd5eapi.co/api/"+elem);
       var rqstUrl = "http://www.dnd5eapi.co/api/"+elem;
+      console.log(rqstUrl);
       httpGetRequest(rqstUrl);
     });
   });
