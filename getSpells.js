@@ -5,7 +5,7 @@ var list = [];
 //httpGetRequest("http://www.dnd5eapi.co/api/spells/1", "spells");
 
 function httpGetRequest(rqstUrl,flName) {
-  var result;
+
   http.get(rqstUrl, (res) => {
     const { statusCode } = res;
     const contentType = res.headers['content-type'];
@@ -32,7 +32,7 @@ function httpGetRequest(rqstUrl,flName) {
         const parsedData = JSON.parse(rawResponse);
         var listString = JSON.stringify(parsedData, null, "\t");
         list.push(listString);
-        fs.writeFile("./data/spellsData.json", list, "utf8");
+        fs.writeFile("./data/spells/spellsData.json", list, "utf8");
         //console.log("write: "+flName+".json");
         
         
