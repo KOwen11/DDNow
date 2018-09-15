@@ -1,18 +1,18 @@
 {    
     "list": [ 
-        "ability-scores/",
-        "skills/",
-        "proficiencies/",
-        "languages/",
-        "classes/",
-        "subclasses/",
-        "features/",
-        "races/",
-        "subraces/",
-        "traits/",
-        "equipment/",
-        "conditions/",
-        "damage-types/",
-        "magic-schools/"
+        "ability-scores",
+        "skills",
+        "proficiencies",
+        "languages",
+        "classes",
+        "subclasses",
+        "features",
+        "races",
+        "subraces",
+        "traits",
+        "equipment",
+        "conditions",
+        "damage-types",
+        "magic-schools"
     ]
 }

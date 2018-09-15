@@ -48,9 +48,11 @@ function init() {
     }
     var result = JSON.parse(data.toString());
     result.list.forEach(function(elem){
-      var rqstUrl = "http://www.dnd5eapi.co/api/"+elem;
+      var rqstUrl = "http://www.dnd5eapi.co/api/"+elem+"/";
       console.log(rqstUrl);
-      httpGetRequest(rqstUrl);
+      var jsonData = httpGetRequest(rqstUrl);
+      jsonData = JSON.stringify(httpGetRequest(rqstUrl));
+      fs.writeFile("./data/resourceList/"+elem+".json", jsonData, "utf8");
     });
   });
 }
