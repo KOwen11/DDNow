@@ -1,5 +1,8 @@
 var fs = require('fs');
 const http = require('http');
+var list = [];
+
+//httpGetRequest("http://www.dnd5eapi.co/api/spells/1", "spells");
 
 function httpGetRequest(rqstUrl,flName) {
   var result;
@@ -22,15 +25,18 @@ function httpGetRequest(rqstUrl,flName) {
       return;
     }
     res.setEncoding('utf8');
-    let rawData = '';
-    res.on('data', (chunk) => { rawData += chunk; });
+    let rawResponse = '';
+    res.on('data', (chunk) => { rawResponse += chunk; });
     res.on('end', () => {
       try {
-        const parsedData = JSON.parse(rawData);
-        result = rawData;
-        var fData = JSON.stringify(parsedData, null, "\t");
-        fs.writeFile("./data/resourceList/"+flName+".json", fData, "utf8");
-        console.log("write: "+flName+".json");
+        const parsedData = JSON.parse(rawResponse);
+        var listString = JSON.stringify(parsedData, null, "\t");
+        list.push(listString);
+        fs.writeFile("./data/spellsData.json", list, "utf8");
+        //console.log("write: "+flName+".json");
+        
+        
+        
       } catch (e) {
         console.error(e.message);
       }
@@ -41,19 +47,18 @@ function httpGetRequest(rqstUrl,flName) {
 }
 
 function init() {
-  fs.readFile('./data/rL1.json', function(err, data){
-    if (err){
-      return console.log(err);
-    }
-    var result = JSON.parse(data.toString());
-    result.list.forEach(function(elem){
-      var rqstUrl = "http://www.dnd5eapi.co/api/"+elem+"/";
-      console.log(rqstUrl);
-      httpGetRequest(rqstUrl, elem);
+    fs.writeFile('./data/spells/spellsList.json', '', "utf8");
+    fs.readFile('./data/resourceList/spells.json', function(err, data){
+        if (err){
+          return console.log(err);
+        }
+        var rLists = JSON.parse(data.toString());
+        rLists.results.forEach(function(elem){
+          var rqstUrl = elem.url;
+          console.log(rqstUrl);
+          httpGetRequest(rqstUrl, elem);
+        });
     });
-  });
 }
 
 init();
-
-

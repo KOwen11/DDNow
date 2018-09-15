@@ -1,1 +1,77 @@
-{"count":18,"results":[{"name":"Acrobatics","url":"http://www.dnd5eapi.co/api/skills/1"},{"name":"Animal Handling","url":"http://www.dnd5eapi.co/api/skills/2"},{"name":"Arcana","url":"http://www.dnd5eapi.co/api/skills/3"},{"name":"Athletics","url":"http://www.dnd5eapi.co/api/skills/4"},{"name":"Deception","url":"http://www.dnd5eapi.co/api/skills/5"},{"name":"History","url":"http://www.dnd5eapi.co/api/skills/6"},{"name":"Insight","url":"http://www.dnd5eapi.co/api/skills/7"},{"name":"Intimidation","url":"http://www.dnd5eapi.co/api/skills/8"},{"name":"Investigation","url":"http://www.dnd5eapi.co/api/skills/9"},{"name":"Medicine","url":"http://www.dnd5eapi.co/api/skills/10"},{"name":"Nature","url":"http://www.dnd5eapi.co/api/skills/11"},{"name":"Perception","url":"http://www.dnd5eapi.co/api/skills/12"},{"name":"Performance","url":"http://www.dnd5eapi.co/api/skills/13"},{"name":"Persuasion","url":"http://www.dnd5eapi.co/api/skills/14"},{"name":"Religion","url":"http://www.dnd5eapi.co/api/skills/15"},{"name":"Sleight of Hand","url":"http://www.dnd5eapi.co/api/skills/16"},{"name":"Stealth","url":"http://www.dnd5eapi.co/api/skills/17"},{"name":"Survival","url":"http://www.dnd5eapi.co/api/skills/18"}]}
+{
+	"count": 18,
+	"results": [
+		{
+			"name": "Acrobatics",
+			"url": "http://www.dnd5eapi.co/api/skills/1"
+		},
+		{
+			"name": "Animal Handling",
+			"url": "http://www.dnd5eapi.co/api/skills/2"
+		},
+		{
+			"name": "Arcana",
+			"url": "http://www.dnd5eapi.co/api/skills/3"
+		},
+		{
+			"name": "Athletics",
+			"url": "http://www.dnd5eapi.co/api/skills/4"
+		},
+		{
+			"name": "Deception",
+			"url": "http://www.dnd5eapi.co/api/skills/5"
+		},
+		{
+			"name": "History",
+			"url": "http://www.dnd5eapi.co/api/skills/6"
+		},
+		{
+			"name": "Insight",
+			"url": "http://www.dnd5eapi.co/api/skills/7"
+		},
+		{
+			"name": "Intimidation",
+			"url": "http://www.dnd5eapi.co/api/skills/8"
+		},
+		{
+			"name": "Investigation",
+			"url": "http://www.dnd5eapi.co/api/skills/9"
+		},
+		{
+			"name": "Medicine",
+			"url": "http://www.dnd5eapi.co/api/skills/10"
+		},
+		{
+			"name": "Nature",
+			"url": "http://www.dnd5eapi.co/api/skills/11"
+		},
+		{
+			"name": "Perception",
+			"url": "http://www.dnd5eapi.co/api/skills/12"
+		},
+		{
+			"name": "Performance",
+			"url": "http://www.dnd5eapi.co/api/skills/13"
+		},
+		{
+			"name": "Persuasion",
+			"url": "http://www.dnd5eapi.co/api/skills/14"
+		},
+		{
+			"name": "Religion",
+			"url": "http://www.dnd5eapi.co/api/skills/15"
+		},
+		{
+			"name": "Sleight of Hand",
+			"url": "http://www.dnd5eapi.co/api/skills/16"
+		},
+		{
+			"name": "Stealth",
+			"url": "http://www.dnd5eapi.co/api/skills/17"
+		},
+		{
+			"name": "Survival",
+			"url": "http://www.dnd5eapi.co/api/skills/18"
+		}
+	]
+}

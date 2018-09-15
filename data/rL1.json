@@ -13,6 +13,8 @@
         "equipment",
         "conditions",
         "damage-types",
-        "magic-schools"
+        "magic-schools",
+        "spells",
+        "spellcasting"
     ]
 }

@@ -1,1 +1,53 @@
-{"count":12,"results":[{"name":"Berserker","url":"http://www.dnd5eapi.co/api/subclasses/1"},{"name":"Lore","url":"http://www.dnd5eapi.co/api/subclasses/2"},{"name":"Life","url":"http://www.dnd5eapi.co/api/subclasses/3"},{"name":"Land","url":"http://www.dnd5eapi.co/api/subclasses/4"},{"name":"Champion","url":"http://www.dnd5eapi.co/api/subclasses/5"},{"name":"Open Hand","url":"http://www.dnd5eapi.co/api/subclasses/6"},{"name":"Devotion","url":"http://www.dnd5eapi.co/api/subclasses/7"},{"name":"Hunter","url":"http://www.dnd5eapi.co/api/subclasses/8"},{"name":"Thief","url":"http://www.dnd5eapi.co/api/subclasses/9"},{"name":"Draconic","url":"http://www.dnd5eapi.co/api/subclasses/10"},{"name":"Fiend","url":"http://www.dnd5eapi.co/api/subclasses/11"},{"name":"Evocation","url":"http://www.dnd5eapi.co/api/subclasses/12"}]}
+{
+	"count": 12,
+	"results": [
+		{
+			"name": "Berserker",
+			"url": "http://www.dnd5eapi.co/api/subclasses/1"
+		},
+		{
+			"name": "Lore",
+			"url": "http://www.dnd5eapi.co/api/subclasses/2"
+		},
+		{
+			"name": "Life",
+			"url": "http://www.dnd5eapi.co/api/subclasses/3"
+		},
+		{
+			"name": "Land",
+			"url": "http://www.dnd5eapi.co/api/subclasses/4"
+		},
+		{
+			"name": "Champion",
+			"url": "http://www.dnd5eapi.co/api/subclasses/5"
+		},
+		{
+			"name": "Open Hand",
+			"url": "http://www.dnd5eapi.co/api/subclasses/6"
+		},
+		{
+			"name": "Devotion",
+			"url": "http://www.dnd5eapi.co/api/subclasses/7"
+		},
+		{
+			"name": "Hunter",
+			"url": "http://www.dnd5eapi.co/api/subclasses/8"
+		},
+		{
+			"name": "Thief",
+			"url": "http://www.dnd5eapi.co/api/subclasses/9"
+		},
+		{
+			"name": "Draconic",
+			"url": "http://www.dnd5eapi.co/api/subclasses/10"
+		},
+		{
+			"name": "Fiend",
+			"url": "http://www.dnd5eapi.co/api/subclasses/11"
+		},
+		{
+			"name": "Evocation",
+			"url": "http://www.dnd5eapi.co/api/subclasses/12"
+		}
+	]
+}
