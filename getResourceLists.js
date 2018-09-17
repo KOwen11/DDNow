@@ -1,8 +1,16 @@
 var fs = require('fs');
 const http = require('http');
+var baseUrl = "http://www.dnd5eapi.co/api/";
 
-function httpGetRequest(rqstUrl,flName) {
-  var result;
+var list = {
+  resources: []
+};
+
+function httpGetRequest(data) {
+  var rqstUrl = data.rqstUrl;
+  var fileName = data.name;
+
+  
   http.get(rqstUrl, (res) => {
     const { statusCode } = res;
     const contentType = res.headers['content-type'];
@@ -22,15 +30,20 @@ function httpGetRequest(rqstUrl,flName) {
       return;
     }
     res.setEncoding('utf8');
-    let rawData = '';
-    res.on('data', (chunk) => { rawData += chunk; });
+    let rawResponse = '';
+    res.on('data', (chunk) => { rawResponse += chunk; });
     res.on('end', () => {
       try {
-        const parsedData = JSON.parse(rawData);
-        result = rawData;
-        var fData = JSON.stringify(parsedData, null, "\t");
-        fs.writeFile("./data/resourceList/"+flName+".json", fData, "utf8");
-        console.log("write: "+flName+".json");
+        const parsedData = JSON.parse(rawResponse);
+        //console.log(parsedData);
+        var result = {
+          name: fileName,
+          data: parsedData
+        };
+        list.resources.unshift(result);
+        var finalList = JSON.stringify(list, null,"\t");
+        fs.writeFile("./data/data.json", finalList, "utf8");
+        //console.log(JSON.stringify(list, null, "\t"));
       } catch (e) {
         console.error(e.message);
       }
@@ -40,20 +53,34 @@ function httpGetRequest(rqstUrl,flName) {
   });
 }
 
-function init() {
-  fs.readFile('./data/rL1.json', function(err, data){
+function crawl(input) {
+  fs.readFile(input, function(err, data){
     if (err){
       return console.log(err);
     }
-    var result = JSON.parse(data.toString());
-    result.list.forEach(function(elem){
-      var rqstUrl = "http://www.dnd5eapi.co/api/"+elem+"/";
-      console.log(rqstUrl);
-      httpGetRequest(rqstUrl, elem);
+    var resources = JSON.parse(data);
+    resources.list.forEach(function(elem){
+      var fData = [];
+      var rqstUrl = baseUrl+elem;
+      var result = {
+        name: elem, 
+        url: rqstUrl
+      };
+      fData.push(result);
+      fData.forEach(function(e){
+        
+        var data = {
+          rqstUrl: e.url,
+          name: e.name,
+          dir: "./data/full/",
+          fileType: ".json",
+          write: false
+        };
+        httpGetRequest(data);
+      });
     });
   });
+
 }
 
-init();
-
-
+crawl('./data/rL1.json');

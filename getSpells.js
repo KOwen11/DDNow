@@ -1,8 +1,12 @@
 var fs = require('fs');
 const http = require('http');
 var list = [];
+var resourceLists = null;
+
 
 //httpGetRequest("http://www.dnd5eapi.co/api/spells/1", "spells");
+
+
 
 function httpGetRequest(rqstUrl,flName) {
 
@@ -46,19 +50,20 @@ function httpGetRequest(rqstUrl,flName) {
   });
 }
 
-function init() {
-    fs.writeFile('./data/spells/spellsList.json', '', "utf8");
-    fs.readFile('./data/resourceList/spells.json', function(err, data){
-        if (err){
-          return console.log(err);
-        }
-        var rLists = JSON.parse(data.toString());
-        rLists.results.forEach(function(elem){
-          var rqstUrl = elem.url;
-          console.log(rqstUrl);
-          httpGetRequest(rqstUrl, elem);
-        });
+function init(path, input) {
+  fs.writeFile('./data/spells/spellsList.json', '', "utf8");
+  fs.readFile('./data/resourceList/spells.json', function(err, data){
+    if (err){
+      return console.log(err);
+    }
+    var rLists = JSON.parse(data.toString());
+    rLists.results.forEach(function(elem){
+      var rqstUrl = elem.url;
+      console.log(rqstUrl);
+      httpGetRequest(rqstUrl, elem);
     });
+  });
 }
 
-init();
+
+crawl();
