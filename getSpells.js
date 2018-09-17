@@ -34,7 +34,17 @@ function httpGetRequest(rqstUrl,flName) {
     res.on('end', () => {
       try {
         const parsedData = JSON.parse(rawResponse);
-        var listString = JSON.stringify(parsedData, null, "\t");
+        const transformedData = parsedData.map(spell => {
+          return {
+            id: spell.index,
+            name: spell.name,
+            desc: spell.desc,
+            range: spell.range,
+            school: spell.school.name,
+            classes: spell.classes.map(class => class.name)
+          }
+        });
+        var listString = JSON.stringify(transformedData, null, "\t");
         list.push(listString);
         fs.writeFile("./data/spells/spellsData.json", list, "utf8");
         //console.log("write: "+flName+".json");
