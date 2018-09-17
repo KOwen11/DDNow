@@ -1,0 +1,348 @@
+{
+	"resources": [
+		{
+			"name": "traits",
+			"data": {
+				"count": 6,
+				"results": [
+					{
+						"_id": "5a52bc1e559f00418e532e3c",
+						"index": 4,
+						"name": "Mountain Dwarf",
+						"race": {
+							"url": "http://www.dnd5eapi.co/api/races/1",
+							"name": "Dwarf"
+						},
+						"desc": "As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain. You're probably on the tall side (for a dwarf), and tend toward lighter coloration.",
+						"ability_bonuses": [
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						"starting_proficiencies:": [
+							{
+								"name": "Medium armor",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/2"
+							},
+							{
+								"name": "Heavy armor",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/3"
+							}
+						],
+						"languages": [],
+						"racial_traits": [],
+						"url": "http://www.dnd5eapi.co/api/traits/4"
+					},
+					{
+						"_id": "5a52bc1e559f00418e532e38",
+						"index": 2,
+						"name": "High Elf",
+						"race": {
+							"url": "http://www.dnd5eapi.co/api/races/2",
+							"name": "Elf"
+						},
+						"desc": "As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many fantasy gaming worlds, there are two kinds of high elves. One type is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type is more common and more friendly, and often encountered among humans and other races.",
+						"ability_bonuses": [
+							0,
+							0,
+							0,
+							1,
+							0,
+							0
+						],
+						"starting_proficiencies:": [
+							{
+								"name": "Longswords",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/42"
+							},
+							{
+								"name": "Shortswords",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/48"
+							},
+							{
+								"name": "Shortbows",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/33"
+							},
+							{
+								"name": "Longbows",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/56"
+							}
+						],
+						"languages": [],
+						"language_options": {
+							"choose": 1,
+							"from": [
+								{
+									"name": "Dwarvish",
+									"url": "http://www.dnd5eapi.co/api/languages/2"
+								},
+								{
+									"name": "Giant",
+									"url": "http://www.dnd5eapi.co/api/languages/4"
+								},
+								{
+									"name": "Gnomish",
+									"url": "http://www.dnd5eapi.co/api/languages/5"
+								},
+								{
+									"name": "Goblin",
+									"url": "http://www.dnd5eapi.co/api/languages/6"
+								},
+								{
+									"name": "Halfling",
+									"url": "http://www.dnd5eapi.co/api/languages/7"
+								},
+								{
+									"name": "Orc",
+									"url": "http://www.dnd5eapi.co/api/languages/8"
+								},
+								{
+									"name": "Abyssal",
+									"url": "http://www.dnd5eapi.co/api/languages/9"
+								},
+								{
+									"name": "Celestial",
+									"url": "http://www.dnd5eapi.co/api/languages/10"
+								},
+								{
+									"name": "Draconic",
+									"url": "http://www.dnd5eapi.co/api/languages/11"
+								},
+								{
+									"name": "Deep Speech",
+									"url": "http://www.dnd5eapi.co/api/languages/12"
+								},
+								{
+									"name": "Infernal",
+									"url": "http://www.dnd5eapi.co/api/languages/13"
+								},
+								{
+									"name": "Primordial",
+									"url": "http://www.dnd5eapi.co/api/languages/14"
+								},
+								{
+									"name": "Sylvan",
+									"url": "http://www.dnd5eapi.co/api/languages/15"
+								},
+								{
+									"name": "Undercommon",
+									"url": "http://www.dnd5eapi.co/api/languages/16"
+								}
+							],
+							"type": "language"
+						},
+						"racial_traits": [],
+						"racial_trait_options": {
+							"choose": 1,
+							"from": [
+								{
+									"name": "High Elf Cantrip: Light",
+									"url": "http://www.dnd5eapi.co/api/traits/9"
+								},
+								{
+									"name": "High Elf Cantrip: Mage Hand",
+									"url": "http://www.dnd5eapi.co/api/traits/10"
+								},
+								{
+									"name": "High Elf Cantrip: Mending",
+									"url": "http://www.dnd5eapi.co/api/traits/11"
+								},
+								{
+									"name": "High Elf Cantrip: Message",
+									"url": "http://www.dnd5eapi.co/api/traits/12"
+								},
+								{
+									"name": "High Elf Cantrip: Minor Illusion",
+									"url": "http://www.dnd5eapi.co/api/traits/13"
+								},
+								{
+									"name": "High Elf Cantrip: Acid Splash",
+									"url": "http://www.dnd5eapi.co/api/traits/14"
+								},
+								{
+									"name": "High Elf Cantrip: Prestidigitation",
+									"url": "http://www.dnd5eapi.co/api/traits/15"
+								},
+								{
+									"name": "High Elf Cantrip: Ray of Frost",
+									"url": "http://www.dnd5eapi.co/api/traits/16"
+								},
+								{
+									"name": "High Elf Cantrip: Shocking Grasp",
+									"url": "http://www.dnd5eapi.co/api/traits/17"
+								},
+								{
+									"name": "High Elf Cantrip: True Strike",
+									"url": "http://www.dnd5eapi.co/api/traits/18"
+								},
+								{
+									"name": "High Elf Cantrip: Chill Touch",
+									"url": "http://www.dnd5eapi.co/api/traits/19"
+								},
+								{
+									"name": "High Elf Cantrip: Dancing Lights",
+									"url": "http://www.dnd5eapi.co/api/traits/20"
+								}
+							],
+							"type": "trait"
+						},
+						"url": "http://www.dnd5eapi.co/api/traits/2"
+					},
+					{
+						"_id": "5a52bc1e559f00418e532e3a",
+						"index": 6,
+						"name": "Dark Elf (Drow)",
+						"race": {
+							"url": "http://www.dnd5eapi.co/api/races/2",
+							"name": "Elf"
+						},
+						"desc": "As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly through your native forrests.",
+						"ability_bonuses": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							1
+						],
+						"starting_proficiencies:": [
+							{
+								"name": "Rapiers",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/46"
+							},
+							{
+								"name": "Shortswords",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/48"
+							},
+							{
+								"name": "Crossbows, hand",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/54"
+							}
+						],
+						"languages": [],
+						"racial_traits": [
+							{
+								"name": "Superior Darkvision",
+								"url": "http://www.dnd5eapi.co/api/traits/39"
+							},
+							{
+								"name": "Sunlight Sensitivity",
+								"url": "http://www.dnd5eapi.co/api/traits/40"
+							},
+							{
+								"name": "Drow Magic",
+								"url": "http://www.dnd5eapi.co/api/traits/41"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/traits/6"
+					},
+					{
+						"_id": "5a52bc1e559f00418e532e3b",
+						"index": 1,
+						"name": "Hill Dwarf",
+						"race": {
+							"url": "http://www.dnd5eapi.co/api/races/1",
+							"name": "Dwarf"
+						},
+						"desc": "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.",
+						"ability_bonuses": [
+							0,
+							0,
+							0,
+							0,
+							1,
+							0
+						],
+						"starting_proficiencies:": [],
+						"languages": [],
+						"racial_traits": [
+							{
+								"name": "Dwarven Toughness",
+								"url": "http://www.dnd5eapi.co/api/traits/4"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/traits/1"
+					},
+					{
+						"_id": "5a52bc1e559f00418e532e39",
+						"index": 5,
+						"name": "Wood Elf",
+						"race": {
+							"url": "http://www.dnd5eapi.co/api/races/2",
+							"name": "Elf"
+						},
+						"desc": "As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly through your native forrests.",
+						"ability_bonuses": [
+							0,
+							0,
+							0,
+							0,
+							1,
+							0
+						],
+						"starting_proficiencies:": [
+							{
+								"name": "Longswords",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/42"
+							},
+							{
+								"name": "Shortswords",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/48"
+							},
+							{
+								"name": "Shortbows",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/33"
+							},
+							{
+								"name": "Longbows",
+								"url": "http://www.dnd5eapi.co/api/proficiencies/56"
+							}
+						],
+						"languages": [],
+						"racial_traits": [
+							{
+								"name": "Fleet of Foot",
+								"url": "http://www.dnd5eapi.co/api/traits/37"
+							},
+							{
+								"name": "Mask of the Wild",
+								"url": "http://www.dnd5eapi.co/api/traits/38"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/traits/5"
+					},
+					{
+						"_id": "5a52bc1e559f00418e532e37",
+						"index": 3,
+						"name": "Lightfoot Halfling",
+						"race": {
+							"url": "http://www.dnd5eapi.co/api/races/3",
+							"name": "Halfling"
+						},
+						"desc": "As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You’re inclined to be affable and get along well with others. Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life.",
+						"ability_bonuses": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							1
+						],
+						"starting_proficiencies:": [],
+						"languages": [],
+						"racial_traits": [
+							{
+								"name": "Naturally Stealthy",
+								"url": "http://www.dnd5eapi.co/api/traits/23"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/traits/3"
+					}
+				]
+			}
+		}
+	]
+}

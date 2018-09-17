@@ -1,0 +1,1497 @@
+{
+	"resources": [
+		{
+			"name": "subclasses",
+			"data": {
+				"count": 12,
+				"results": [
+					{
+						"_id": "58f40b68c9e7ce9f72153103",
+						"index": 7,
+						"class": {
+							"url": "http://www.dnd5eapi.co/api/classes/7",
+							"name": "Paladin"
+						},
+						"name": "Devotion",
+						"subclass_flavor": "Sacred Oath",
+						"desc": [
+							"The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels--the perfect servants of good--as their ideals, and incorporate images of angelic wings into their helmets or coats of arms."
+						],
+						"features": [],
+						"spells": [
+							{
+								"spell": {
+									"name": "Protection from Evil and Good",
+									"url": "http://www.dnd5eapi.co/api/spells/223"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Sanctuary",
+									"url": "http://www.dnd5eapi.co/api/spells/239"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Lesser Restoration",
+									"url": "http://www.dnd5eapi.co/api/spells/167"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Zone of Truth",
+									"url": "http://www.dnd5eapi.co/api/spells/305"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Beacon of Hope",
+									"url": "http://www.dnd5eapi.co/api/spells/24"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Dispel Magic",
+									"url": "http://www.dnd5eapi.co/api/spells/82"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Freedom of Movement",
+									"url": "http://www.dnd5eapi.co/api/spells/123"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 13
+							},
+							{
+								"spell": {
+									"name": "Commune",
+									"url": "http://www.dnd5eapi.co/api/spells/45"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 17
+							},
+							{
+								"spell": {
+									"name": "Flame Strike",
+									"url": "http://www.dnd5eapi.co/api/spells/114"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 17
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/subclasses/7"
+					},
+					{
+						"_id": "58f40b68c9e7ce9f721530fd",
+						"index": 5,
+						"class": {
+							"url": "http://www.dnd5eapi.co/api/classes/5",
+							"name": "Fighter"
+						},
+						"name": "Champion",
+						"subclass_flavor": "Martial Archetype",
+						"desc": [
+							"The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows."
+						],
+						"features": [],
+						"url": "http://www.dnd5eapi.co/api/subclasses/5"
+					},
+					{
+						"_id": "58f40b68c9e7ce9f721530ff",
+						"index": 8,
+						"class": {
+							"url": "http://www.dnd5eapi.co/api/classes/8",
+							"name": "Ranger"
+						},
+						"name": "Hunter",
+						"subclass_flavor": "Ranger Archetype",
+						"desc": [
+							"Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons."
+						],
+						"features": [],
+						"url": "http://www.dnd5eapi.co/api/subclasses/8"
+					},
+					{
+						"_id": "58f40b68c9e7ce9f72153102",
+						"index": 12,
+						"class": {
+							"url": "http://www.dnd5eapi.co/api/classes/12",
+							"name": "Wizard"
+						},
+						"name": "Evocation",
+						"subclass_flavor": "Arcane Tradition",
+						"desc": [
+							"You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants."
+						],
+						"features": [],
+						"url": "http://www.dnd5eapi.co/api/subclasses/12"
+					},
+					{
+						"_id": "58f40b68c9e7ce9f721530fc",
+						"index": 3,
+						"class": {
+							"url": "http://www.dnd5eapi.co/api/classes/3",
+							"name": "Cleric"
+						},
+						"name": "Life",
+						"subclass_flavor": "Divine Domain",
+						"desc": [
+							"The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities, sun gods, gods of healing or endurance, and gods of home and community."
+						],
+						"features": [],
+						"spells": [
+							{
+								"spell": {
+									"name": "Bless",
+									"url": "http://www.dnd5eapi.co/api/spells/28"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 1
+							},
+							{
+								"spell": {
+									"name": "Cure Wounds",
+									"url": "http://www.dnd5eapi.co/api/spells/66"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 1
+							},
+							{
+								"spell": {
+									"name": "Lesser Restoration",
+									"url": "http://www.dnd5eapi.co/api/spells/167"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Spiritual Weapon",
+									"url": "http://www.dnd5eapi.co/api/spells/265"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Beacon of Hope",
+									"url": "http://www.dnd5eapi.co/api/spells/24"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Revivify",
+									"url": "http://www.dnd5eapi.co/api/spells/236"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Death Ward",
+									"url": "http://www.dnd5eapi.co/api/spells/71"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Mass Cure Wounds",
+									"url": "http://www.dnd5eapi.co/api/spells/184"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Raise Dead",
+									"url": "http://www.dnd5eapi.co/api/spells/226"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/subclasses/3"
+					},
+					{
+						"_id": "58f40b68c9e7ce9f721530fe",
+						"index": 6,
+						"class": {
+							"url": "http://www.dnd5eapi.co/api/classes/6",
+							"name": "Monk"
+						},
+						"name": "Open Hand",
+						"subclass_flavor": "Monastic Tradition",
+						"desc": [
+							"Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm."
+						],
+						"features": [],
+						"url": "http://www.dnd5eapi.co/api/subclasses/6"
+					},
+					{
+						"_id": "58f40b68c9e7ce9f72153105",
+						"index": 4,
+						"class": {
+							"url": "http://www.dnd5eapi.co/api/classes/4",
+							"name": "Druid"
+						},
+						"name": "Land",
+						"subclass_flavor": "Druid Circle",
+						"desc": [
+							"The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle’s wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle’s mysterious rites."
+						],
+						"features": [],
+						"spells": [
+							{
+								"spell": {
+									"name": "Hold Person",
+									"url": "http://www.dnd5eapi.co/api/spells/151"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/105",
+										"name": "Circle of the Land: Arctic"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Spike Growth",
+									"url": "http://www.dnd5eapi.co/api/spells/263"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/105",
+										"name": "Circle of the Land: Arctic"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Sleet Storm",
+									"url": "http://www.dnd5eapi.co/api/spells/257"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/105",
+										"name": "Circle of the Land: Arctic"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Slow",
+									"url": "http://www.dnd5eapi.co/api/spells/258"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/105",
+										"name": "Circle of the Land: Arctic"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Freedom of Movement",
+									"url": "http://www.dnd5eapi.co/api/spells/123"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/105",
+										"name": "Circle of the Land: Arctic"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Holy Aura",
+									"url": "http://www.dnd5eapi.co/api/spells/152"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/105",
+										"name": "Circle of the Land: Arctic"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Commune",
+									"url": "http://www.dnd5eapi.co/api/spells/45"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/105",
+										"name": "Circle of the Land: Arctic"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Comprehend Languages",
+									"url": "http://www.dnd5eapi.co/api/spells/47"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/105",
+										"name": "Circle of the Land: Arctic"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Mirror Image",
+									"url": "http://www.dnd5eapi.co/api/spells/196"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/106",
+										"name": "Circle of the Land: Coast"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Misty Step",
+									"url": "http://www.dnd5eapi.co/api/spells/198"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/106",
+										"name": "Circle of the Land: Coast"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Water Breathing",
+									"url": "http://www.dnd5eapi.co/api/spells/297"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/106",
+										"name": "Circle of the Land: Coast"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Water Walk",
+									"url": "http://www.dnd5eapi.co/api/spells/298"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/106",
+										"name": "Circle of the Land: Coast"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Control Water",
+									"url": "http://www.dnd5eapi.co/api/spells/60"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/106",
+										"name": "Circle of the Land: Coast"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Freedom of Movement",
+									"url": "http://www.dnd5eapi.co/api/spells/123"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/106",
+										"name": "Circle of the Land: Coast"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Conjure Elemental",
+									"url": "http://www.dnd5eapi.co/api/spells/52"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/106",
+										"name": "Circle of the Land: Coast"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Scrying",
+									"url": "http://www.dnd5eapi.co/api/spells/241"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/106",
+										"name": "Circle of the Land: Coast"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Blur",
+									"url": "http://www.dnd5eapi.co/api/spells/32"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/107",
+										"name": "Circle of the Land: Desert"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Silence",
+									"url": "http://www.dnd5eapi.co/api/spells/253"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/107",
+										"name": "Circle of the Land: Desert"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Create Food and Water",
+									"url": "http://www.dnd5eapi.co/api/spells/62"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/107",
+										"name": "Circle of the Land: Desert"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Protection From Energy",
+									"url": "http://www.dnd5eapi.co/api/spells/222"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/107",
+										"name": "Circle of the Land: Desert"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Blight",
+									"url": "http://www.dnd5eapi.co/api/spells/29"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/107",
+										"name": "Circle of the Land: Desert"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Hallucinatory Terrain",
+									"url": "http://www.dnd5eapi.co/api/spells/141"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/107",
+										"name": "Circle of the Land: Desert"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Insect Plague",
+									"url": "http://www.dnd5eapi.co/api/spells/160"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/107",
+										"name": "Circle of the Land: Desert"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Wall of Stone",
+									"url": "http://www.dnd5eapi.co/api/spells/294"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/107",
+										"name": "Circle of the Land: Desert"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Barkskin",
+									"url": "http://www.dnd5eapi.co/api/spells/23"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/108",
+										"name": "Circle of the Land: Forest"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Spider Climb",
+									"url": "http://www.dnd5eapi.co/api/spells/262"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/108",
+										"name": "Circle of the Land: Forest"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Call Lightning",
+									"url": "http://www.dnd5eapi.co/api/spells/34"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/108",
+										"name": "Circle of the Land: Forest"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Plant Growth",
+									"url": "http://www.dnd5eapi.co/api/spells/210"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/108",
+										"name": "Circle of the Land: Forest"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Divination",
+									"url": "http://www.dnd5eapi.co/api/spells/83"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/108",
+										"name": "Circle of the Land: Forest"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Freedom of Movement",
+									"url": "http://www.dnd5eapi.co/api/spells/123"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/108",
+										"name": "Circle of the Land: Forest"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Commune With Nature",
+									"url": "http://www.dnd5eapi.co/api/spells/46"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/108",
+										"name": "Circle of the Land: Forest"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Tree Stride",
+									"url": "http://www.dnd5eapi.co/api/spells/284"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/108",
+										"name": "Circle of the Land: Forest"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Invisibility",
+									"url": "http://www.dnd5eapi.co/api/spells/160"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/109",
+										"name": "Circle of the Land: Grassland"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Pass Without Trace",
+									"url": "http://www.dnd5eapi.co/api/spells/203"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/109",
+										"name": "Circle of the Land: Grassland"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Daylight",
+									"url": "http://www.dnd5eapi.co/api/spells/70"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/109",
+										"name": "Circle of the Land: Grassland"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Haste",
+									"url": "http://www.dnd5eapi.co/api/spells/143"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/109",
+										"name": "Circle of the Land: Grassland"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Divination",
+									"url": "http://www.dnd5eapi.co/api/spells/83"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/109",
+										"name": "Circle of the Land: Grassland"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Freedom of Movement",
+									"url": "http://www.dnd5eapi.co/api/spells/123"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/109",
+										"name": "Circle of the Land: Grassland"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Dream",
+									"url": "http://www.dnd5eapi.co/api/spells/89"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/109",
+										"name": "Circle of the Land: Grassland"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Insect Plague",
+									"url": "http://www.dnd5eapi.co/api/spells/160"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/109",
+										"name": "Circle of the Land: Grassland"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Spider Climb",
+									"url": "http://www.dnd5eapi.co/api/spells/262"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/110",
+										"name": "Circle of the Land: Mountain"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Spike Growth",
+									"url": "http://www.dnd5eapi.co/api/spells/263"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/110",
+										"name": "Circle of the Land: Mountain"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Lightning Bolt",
+									"url": "http://www.dnd5eapi.co/api/spells/170"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/110",
+										"name": "Circle of the Land: Mountain"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Meld Into Stone",
+									"url": "http://www.dnd5eapi.co/api/spells/189"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/110",
+										"name": "Circle of the Land: Mountain"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Stone Shape",
+									"url": "http://www.dnd5eapi.co/api/spells/267"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/110",
+										"name": "Circle of the Land: Mountain"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Stoneskin",
+									"url": "http://www.dnd5eapi.co/api/spells/268"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/110",
+										"name": "Circle of the Land: Mountain"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Passwall",
+									"url": "http://www.dnd5eapi.co/api/spells/204"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/110",
+										"name": "Circle of the Land: Mountain"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Wall of Stone",
+									"url": "http://www.dnd5eapi.co/api/spells/294"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/110",
+										"name": "Circle of the Land: Mountain"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Acid Arrow",
+									"url": "http://www.dnd5eapi.co/api/spells/1"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/112",
+										"name": "Circle of the Land: Swamp"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Darkness",
+									"url": "http://www.dnd5eapi.co/api/spells/68"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/112",
+										"name": "Circle of the Land: Swamp"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 3
+							},
+							{
+								"spell": {
+									"name": "Water Walk",
+									"url": "http://www.dnd5eapi.co/api/spells/298"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/112",
+										"name": "Circle of the Land: Swamp"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Stinking Cloud",
+									"url": "http://www.dnd5eapi.co/api/spells/266"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/112",
+										"name": "Circle of the Land: Swamp"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 5
+							},
+							{
+								"spell": {
+									"name": "Freedom of Movement",
+									"url": "http://www.dnd5eapi.co/api/spells/123"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/112",
+										"name": "Circle of the Land: Swamp"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Locate Creature",
+									"url": "http://www.dnd5eapi.co/api/spells/172"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/112",
+										"name": "Circle of the Land: Swamp"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 7
+							},
+							{
+								"spell": {
+									"name": "Insect Plague",
+									"url": "http://www.dnd5eapi.co/api/spells/160"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/112",
+										"name": "Circle of the Land: Swamp"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							},
+							{
+								"spell": {
+									"name": "Scrying",
+									"url": "http://www.dnd5eapi.co/api/spells/241"
+								},
+								"prerequisites": [
+									{
+										"url": "http://www.dnd5eapi.co/api/features/112",
+										"name": "Circle of the Land: Swamp"
+									}
+								],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 9
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/subclasses/4"
+					},
+					{
+						"_id": "58f40b68c9e7ce9f721530fb",
+						"index": 1,
+						"class": {
+							"url": "http://www.dnd5eapi.co/api/classes/1",
+							"name": "Barbarian"
+						},
+						"name": "Berserker",
+						"subclass_flavor": "Primal Path",
+						"desc": [
+							"For some barbarians, rage is a means to an end— that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker’s rage, you thrill in the chaos of battle, heedless of your own health or well-being."
+						],
+						"features": [
+							{
+								"url": "http://www.dnd5eapi.co/api/features/5",
+								"name": "Primal Path"
+							},
+							{
+								"url": "http://www.dnd5eapi.co/api/features/6",
+								"name": "Frenzy"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/subclasses/1"
+					},
+					{
+						"_id": "58f40b68c9e7ce9f72153100",
+						"index": 10,
+						"class": {
+							"url": "http://www.dnd5eapi.co/api/classes/10",
+							"name": "Sorcerer"
+						},
+						"name": "Draconic",
+						"subclass_flavor": "Sorcerous Origins",
+						"desc": [
+							"Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance."
+						],
+						"features": [],
+						"url": "http://www.dnd5eapi.co/api/subclasses/10"
+					},
+					{
+						"_id": "58f40b68c9e7ce9f721530fa",
+						"index": 2,
+						"class": {
+							"url": "http://www.dnd5eapi.co/api/classes/2",
+							"name": "Bard"
+						},
+						"name": "Lore",
+						"subclass_flavor": "Bard College",
+						"desc": [
+							"Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king. The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic. The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority."
+						],
+						"features": [],
+						"url": "http://www.dnd5eapi.co/api/subclasses/2"
+					},
+					{
+						"_id": "58f40b68c9e7ce9f72153101",
+						"index": 9,
+						"class": {
+							"url": "http://www.dnd5eapi.co/api/classes/9",
+							"name": "Rogue"
+						},
+						"name": "Thief",
+						"subclass_flavor": "Sorcerous Origins",
+						"desc": [
+							"You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ."
+						],
+						"features": [],
+						"url": "http://www.dnd5eapi.co/api/subclasses/9"
+					},
+					{
+						"_id": "58f40b68c9e7ce9f72153104",
+						"index": 11,
+						"class": {
+							"url": "http://www.dnd5eapi.co/api/classes/11",
+							"name": "Warlock"
+						},
+						"name": "Fiend",
+						"subclass_flavor": "Otherworldly Patron",
+						"desc": [
+							"You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths."
+						],
+						"features": [],
+						"spells": [
+							{
+								"spell": {
+									"name": "Burning Hands",
+									"url": "http://www.dnd5eapi.co/api/spells/33"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 1
+							},
+							{
+								"spell": {
+									"name": "Command",
+									"url": "http://www.dnd5eapi.co/api/spells/44"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 1
+							},
+							{
+								"spell": {
+									"name": "Blindness/Deafness",
+									"url": "http://www.dnd5eapi.co/api/spells/30"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 1
+							},
+							{
+								"spell": {
+									"name": "Scorching Ray",
+									"url": "http://www.dnd5eapi.co/api/spells/240"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 1
+							},
+							{
+								"spell": {
+									"name": "Fireball",
+									"url": "http://www.dnd5eapi.co/api/spells/110"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 1
+							},
+							{
+								"spell": {
+									"name": "Stinking Cloud",
+									"url": "http://www.dnd5eapi.co/api/spells/266"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 1
+							},
+							{
+								"spell": {
+									"name": "Fire Shield",
+									"url": "http://www.dnd5eapi.co/api/spells/111"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 1
+							},
+							{
+								"spell": {
+									"name": "Wall of Fire",
+									"url": "http://www.dnd5eapi.co/api/spells/291"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 1
+							},
+							{
+								"spell": {
+									"name": "Flame Strike",
+									"url": "http://www.dnd5eapi.co/api/spells/114"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 1
+							},
+							{
+								"spell": {
+									"name": "Hallow",
+									"url": "http://www.dnd5eapi.co/api/spells/140"
+								},
+								"prerequisites": [],
+								"spell_acquisition_method": {
+									"url": "",
+									"name": "level"
+								},
+								"level_acquired": 1
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/subclasses/11"
+					}
+				]
+			}
+		}
+	]
+}

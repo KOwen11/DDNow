@@ -1,0 +1,36 @@
+{
+	"resources": [
+		{
+			"name": "subraces",
+			"data": {
+				"count": 6,
+				"results": [
+					{
+						"name": "Hill Dwarf",
+						"url": "http://www.dnd5eapi.co/api/subraces/1"
+					},
+					{
+						"name": "High Elf",
+						"url": "http://www.dnd5eapi.co/api/subraces/2"
+					},
+					{
+						"name": "Lightfoot Halfling",
+						"url": "http://www.dnd5eapi.co/api/subraces/3"
+					},
+					{
+						"name": "Mountain Dwarf",
+						"url": "http://www.dnd5eapi.co/api/subraces/4"
+					},
+					{
+						"name": "Wood Elf",
+						"url": "http://www.dnd5eapi.co/api/subraces/5"
+					},
+					{
+						"name": "Dark Elf (Drow)",
+						"url": "http://www.dnd5eapi.co/api/subraces/6"
+					}
+				]
+			}
+		}
+	]
+}

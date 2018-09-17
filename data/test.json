@@ -1,0 +1,20 @@
+{
+    "resources":[
+        {
+			"name": "equipment",
+			"data": {
+				"count": 256,
+				"results": [
+					{
+						"name": "Club",
+						"url": "http://www.dnd5eapi.co/api/equipment/1"
+					},
+					{
+						"name": "Dagger",
+						"url": "http://www.dnd5eapi.co/api/equipment/2"
+					}
+			    ]
+		    }
+        }
+    ]
+}

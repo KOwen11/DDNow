@@ -1,0 +1,192 @@
+{
+	"resources": [
+		{
+			"name": "languages",
+			"data": {
+				"count": 16,
+				"results": [
+					{
+						"_id": "58f40bb4c9e7ce9f72153523",
+						"index": 7,
+						"name": "Halfling",
+						"type": "Standard",
+						"typical_speakers": [
+							"Halflings"
+						],
+						"script": "Common",
+						"url": "http://www.dnd5eapi.co/api/languages/7"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f7215351f",
+						"index": 2,
+						"name": "Dwarvish",
+						"type": "Standard",
+						"typical_speakers": [
+							"Dwarves"
+						],
+						"script": "Dwarvish",
+						"url": "http://www.dnd5eapi.co/api/languages/2"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f72153521",
+						"index": 5,
+						"name": "Gnomish",
+						"type": "Standard",
+						"typical_speakers": [
+							"Gnomes"
+						],
+						"script": "Dwarvish",
+						"url": "http://www.dnd5eapi.co/api/languages/5"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f72153522",
+						"index": 6,
+						"name": "Goblin",
+						"type": "Standard",
+						"typical_speakers": [
+							"Goblinoids"
+						],
+						"script": "Dwarvish",
+						"url": "http://www.dnd5eapi.co/api/languages/6"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f72153525",
+						"index": 4,
+						"name": "Giant",
+						"type": "Standard",
+						"typical_speakers": [
+							"Ogres",
+							"Giants"
+						],
+						"script": "Dwarvish",
+						"url": "http://www.dnd5eapi.co/api/languages/4"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f72153524",
+						"index": 9,
+						"name": "Abyssal",
+						"type": "Exotic",
+						"typical_speakers": [
+							"Demons"
+						],
+						"script": "Infernal",
+						"url": "http://www.dnd5eapi.co/api/languages/9"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f72153528",
+						"index": 13,
+						"name": "Infernal",
+						"type": "Exotic",
+						"typical_speakers": [
+							"Devils",
+							"Tieflings"
+						],
+						"script": "Infernal",
+						"url": "http://www.dnd5eapi.co/api/languages/13"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f7215352b",
+						"index": 16,
+						"name": "Undercommon",
+						"type": "Exotic",
+						"typical_speakers": [
+							"Underdark Traders"
+						],
+						"script": "Elvish",
+						"url": "http://www.dnd5eapi.co/api/languages/16"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f7215352c",
+						"index": 10,
+						"name": "Celestial",
+						"type": "Exotic",
+						"typical_speakers": [
+							"Celestials"
+						],
+						"script": "Celestial",
+						"url": "http://www.dnd5eapi.co/api/languages/10"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f72153526",
+						"index": 8,
+						"name": "Orc",
+						"type": "Standard",
+						"typical_speakers": [
+							"Orcs"
+						],
+						"script": "Dwarvish",
+						"url": "http://www.dnd5eapi.co/api/languages/8"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f7215352d",
+						"index": 11,
+						"name": "Draconic",
+						"type": "Exotic",
+						"typical_speakers": [
+							"Dragons",
+							"Dragonborn"
+						],
+						"script": "Draconic",
+						"url": "http://www.dnd5eapi.co/api/languages/11"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f7215352e",
+						"index": 12,
+						"name": "Deep Speech",
+						"type": "Exotic",
+						"typical_speakers": [
+							"Mindflayers",
+							"Beholders"
+						],
+						"script": "none",
+						"url": "http://www.dnd5eapi.co/api/languages/12"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f72153527",
+						"index": 3,
+						"name": "Elvish",
+						"type": "Standard",
+						"typical_speakers": [
+							"Elves"
+						],
+						"script": "Elvish",
+						"url": "http://www.dnd5eapi.co/api/languages/3"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f7215352a",
+						"index": 15,
+						"name": "Sylvan",
+						"type": "Exotic",
+						"typical_speakers": [
+							"Fey Creatures"
+						],
+						"script": "Elvish",
+						"url": "http://www.dnd5eapi.co/api/languages/15"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f72153520",
+						"index": 1,
+						"name": "Common",
+						"type": "Standard",
+						"typical_speakers": [
+							"Humans"
+						],
+						"script": "Common",
+						"url": "http://www.dnd5eapi.co/api/languages/1"
+					},
+					{
+						"_id": "58f40bb4c9e7ce9f72153529",
+						"index": 14,
+						"name": "Primordial",
+						"type": "Exotic",
+						"typical_speakers": [
+							"Elementa;s"
+						],
+						"script": "Dwarvish",
+						"url": "http://www.dnd5eapi.co/api/languages/14"
+					}
+				]
+			}
+		}
+	]
+}

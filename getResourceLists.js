@@ -1,7 +1,6 @@
 var fs = require('fs');
 const http = require('http');
 var baseUrl = "http://www.dnd5eapi.co/api/";
-
 var list = {
   resources: []
 };

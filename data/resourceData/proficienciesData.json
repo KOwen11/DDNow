@@ -1,0 +1,1523 @@
+{
+	"resources": [
+		{
+			"name": "proficiencies",
+			"data": {
+				"count": 122,
+				"results": [
+					{
+						"_id": "58f40b99c9e7ce9f72153271",
+						"index": 1,
+						"type": "Armor",
+						"name": "Light armor",
+						"classes": [
+							{
+								"name": "Barbarian",
+								"url": "http://www.dnd5eapi.co/api/classes/1"
+							},
+							{
+								"name": "Bard",
+								"url": "http://www.dnd5eapi.co/api/classes/2"
+							},
+							{
+								"name": "Cleric",
+								"url": "http://www.dnd5eapi.co/api/classes/3"
+							},
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							},
+							{
+								"name": "Ranger",
+								"url": "http://www.dnd5eapi.co/api/classes/8"
+							},
+							{
+								"name": "Rogue",
+								"url": "http://www.dnd5eapi.co/api/classes/9"
+							},
+							{
+								"name": "Warlock",
+								"url": "http://www.dnd5eapi.co/api/classes/11"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/1"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153272",
+						"index": 21,
+						"type": "Weapons",
+						"name": "Clubs",
+						"classes": [
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/21"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215326f",
+						"index": 17,
+						"type": "Armor",
+						"name": "Shield",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/17"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153273",
+						"index": 19,
+						"type": "Weapons",
+						"name": "Simple weapons",
+						"classes": [
+							{
+								"name": "Barbarian",
+								"url": "http://www.dnd5eapi.co/api/classes/1"
+							},
+							{
+								"name": "Bard",
+								"url": "http://www.dnd5eapi.co/api/classes/2"
+							},
+							{
+								"name": "Cleric",
+								"url": "http://www.dnd5eapi.co/api/classes/3"
+							},
+							{
+								"name": "Fighter",
+								"url": "http://www.dnd5eapi.co/api/classes/5"
+							},
+							{
+								"name": "Monk",
+								"url": "http://www.dnd5eapi.co/api/classes/6"
+							},
+							{
+								"name": "Paladin",
+								"url": "http://www.dnd5eapi.co/api/classes/7"
+							},
+							{
+								"name": "Ranger",
+								"url": "http://www.dnd5eapi.co/api/classes/8"
+							},
+							{
+								"name": "Rogue",
+								"url": "http://www.dnd5eapi.co/api/classes/9"
+							},
+							{
+								"name": "Warlock",
+								"url": "http://www.dnd5eapi.co/api/classes/11"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/19"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153263",
+						"index": 5,
+						"type": "Armor",
+						"name": "Padded",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/5"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153269",
+						"index": 12,
+						"type": "Armor",
+						"name": "Half Plate",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/12"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153268",
+						"index": 11,
+						"type": "Armor",
+						"name": "Breastplate",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/11"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153266",
+						"index": 7,
+						"type": "Armor",
+						"name": "Studded Leather",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/7"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215327b",
+						"index": 29,
+						"type": "Weapons",
+						"name": "Sickles",
+						"classes": [
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/29"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215326a",
+						"index": 10,
+						"type": "Armor",
+						"name": "Scale Mail",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/10"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153264",
+						"index": 6,
+						"type": "Armor",
+						"name": "Leather",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/6"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215326b",
+						"index": 13,
+						"type": "Armor",
+						"name": "Ring Mail",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/13"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153279",
+						"index": 28,
+						"type": "Weapons",
+						"name": "Quarterstaffs",
+						"classes": [
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							},
+							{
+								"name": "Sorcerer",
+								"url": "http://www.dnd5eapi.co/api/classes/10"
+							},
+							{
+								"name": "Wizard",
+								"url": "http://www.dnd5eapi.co/api/classes/12"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/28"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153286",
+						"index": 36,
+						"type": "Weapons",
+						"name": "Flails",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/36"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153274",
+						"index": 22,
+						"type": "Weapons",
+						"name": "Daggers",
+						"classes": [
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							},
+							{
+								"name": "Sorcerer",
+								"url": "http://www.dnd5eapi.co/api/classes/10"
+							},
+							{
+								"name": "Wizard",
+								"url": "http://www.dnd5eapi.co/api/classes/12"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/22"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153277",
+						"index": 25,
+						"type": "Weapons",
+						"name": "Javelins",
+						"classes": [
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/25"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153265",
+						"index": 8,
+						"type": "Armor",
+						"name": "Hide",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/8"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215327a",
+						"index": 27,
+						"type": "Weapons",
+						"name": "Maces",
+						"classes": [
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/27"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215326c",
+						"index": 14,
+						"type": "Armor",
+						"name": "Chain Mail",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/14"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153261",
+						"index": 2,
+						"type": "Armor",
+						"name": "Medium armor",
+						"classes": [
+							{
+								"name": "Barbarian",
+								"url": "http://www.dnd5eapi.co/api/classes/1"
+							},
+							{
+								"name": "Cleric",
+								"url": "http://www.dnd5eapi.co/api/classes/3"
+							},
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							},
+							{
+								"name": "Ranger",
+								"url": "http://www.dnd5eapi.co/api/classes/8"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/2"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153291",
+						"index": 42,
+						"type": "Weapons",
+						"name": "Longswords",
+						"classes": [
+							{
+								"name": "Bard",
+								"url": "http://www.dnd5eapi.co/api/classes/2"
+							},
+							{
+								"name": "Rogue",
+								"url": "http://www.dnd5eapi.co/api/classes/9"
+							}
+						],
+						"races": [
+							{
+								"name": "High Elf",
+								"url": "http://www.dnd5eapi.co/api/subraces/2"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/42"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215328c",
+						"index": 45,
+						"type": "Weapons",
+						"name": "Pikes",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/45"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153278",
+						"index": 18,
+						"type": "Armor",
+						"name": "Shields",
+						"classes": [
+							{
+								"name": "Barbarian",
+								"url": "http://www.dnd5eapi.co/api/classes/1"
+							},
+							{
+								"name": "Cleric",
+								"url": "http://www.dnd5eapi.co/api/classes/3"
+							},
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							},
+							{
+								"name": "Fighter",
+								"url": "http://www.dnd5eapi.co/api/classes/5"
+							},
+							{
+								"name": "Paladin",
+								"url": "http://www.dnd5eapi.co/api/classes/7"
+							},
+							{
+								"name": "Ranger",
+								"url": "http://www.dnd5eapi.co/api/classes/8"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/18"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153284",
+						"index": 38,
+						"type": "Weapons",
+						"name": "Greataxes",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/38"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215326d",
+						"index": 16,
+						"type": "Armor",
+						"name": "Plate",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/16"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153276",
+						"index": 24,
+						"type": "Weapons",
+						"name": "Handaxes",
+						"classes": [],
+						"races": [
+							{
+								"name": "Dwarf",
+								"url": "http://www.dnd5eapi.co/api/races/1"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/24"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153281",
+						"index": 34,
+						"type": "Weapons",
+						"name": "Slings",
+						"classes": [
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							},
+							{
+								"name": "Sorcerer",
+								"url": "http://www.dnd5eapi.co/api/classes/10"
+							},
+							{
+								"name": "Wizard",
+								"url": "http://www.dnd5eapi.co/api/classes/12"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/34"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215329c",
+						"index": 63,
+						"type": "Artisan's Tools",
+						"name": "Cobbler's tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/63"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153270",
+						"index": 3,
+						"type": "Armor",
+						"name": "Heavy armor",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/3"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215326e",
+						"index": 15,
+						"type": "Armor",
+						"name": "Splint",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/15"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153285",
+						"index": 39,
+						"type": "Weapons",
+						"name": "Greatswords",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/39"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215328a",
+						"index": 44,
+						"type": "Weapons",
+						"name": "Morningstars",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/44"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215328b",
+						"index": 43,
+						"type": "Weapons",
+						"name": "Mauls",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/43"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215327c",
+						"index": 30,
+						"type": "Weapons",
+						"name": "Spears",
+						"classes": [
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/30"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215328d",
+						"index": 46,
+						"type": "Weapons",
+						"name": "Rapiers",
+						"classes": [
+							{
+								"name": "Bard",
+								"url": "http://www.dnd5eapi.co/api/classes/2"
+							},
+							{
+								"name": "Rogue",
+								"url": "http://www.dnd5eapi.co/api/classes/9"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/46"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153294",
+						"index": 54,
+						"type": "Weapons",
+						"name": "Crossbows, hand",
+						"classes": [
+							{
+								"name": "Bard",
+								"url": "http://www.dnd5eapi.co/api/classes/2"
+							},
+							{
+								"name": "Rogue",
+								"url": "http://www.dnd5eapi.co/api/classes/9"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/54"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215328e",
+						"index": 47,
+						"type": "Weapons",
+						"name": "Scimitars",
+						"classes": [
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/47"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153283",
+						"index": 37,
+						"type": "Weapons",
+						"name": "Glaives",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/37"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215327d",
+						"index": 31,
+						"type": "Weapons",
+						"name": "Crossbows, light",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/31"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215329e",
+						"index": 65,
+						"type": "Artisan's Tools",
+						"name": "Glassblower's tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/65"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153292",
+						"index": 53,
+						"type": "Weapons",
+						"name": "Blowguns",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/53"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215327e",
+						"index": 33,
+						"type": "Weapons",
+						"name": "Shortbows",
+						"classes": [],
+						"races": [
+							{
+								"name": "High Elf",
+								"url": "http://www.dnd5eapi.co/api/subraces/2"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/33"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153288",
+						"index": 40,
+						"type": "Weapons",
+						"name": "Halberds",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/40"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532a0",
+						"index": 66,
+						"type": "Artisan's Tools",
+						"name": "Jeweler's tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/66"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153290",
+						"index": 48,
+						"type": "Weapons",
+						"name": "Shortswords",
+						"classes": [
+							{
+								"name": "Bard",
+								"url": "http://www.dnd5eapi.co/api/classes/2"
+							},
+							{
+								"name": "Monk",
+								"url": "http://www.dnd5eapi.co/api/classes/6"
+							},
+							{
+								"name": "Rogue",
+								"url": "http://www.dnd5eapi.co/api/classes/9"
+							}
+						],
+						"races": [
+							{
+								"name": "High Elf",
+								"url": "http://www.dnd5eapi.co/api/subraces/2"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/48"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153275",
+						"index": 23,
+						"type": "Weapons",
+						"name": "Greatclubs",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/23"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153299",
+						"index": 59,
+						"type": "Artisan's Tools",
+						"name": "Brewer's supplies",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/59"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532a5",
+						"index": 62,
+						"type": "Artisan's Tools",
+						"name": "Cartographer's tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/62"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153289",
+						"index": 41,
+						"type": "Weapons",
+						"name": "Lances",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/41"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153267",
+						"index": 9,
+						"type": "Armor",
+						"name": "Chain Shirt",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/9"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153282",
+						"index": 26,
+						"type": "Weapons",
+						"name": "Light hammers",
+						"classes": [],
+						"races": [
+							{
+								"name": "Dwarf",
+								"url": "http://www.dnd5eapi.co/api/races/1"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/26"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532a7",
+						"index": 72,
+						"type": "Artisan's Tools",
+						"name": "Tinker's tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/72"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215328f",
+						"index": 49,
+						"type": "Weapons",
+						"name": "Tridents",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/49"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532ae",
+						"index": 81,
+						"type": "Musical Instruments",
+						"name": "Bagpipes",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/81"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532bf",
+						"index": 87,
+						"type": "Musical Instruments",
+						"name": "Horn",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/87"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153295",
+						"index": 55,
+						"type": "Weapons",
+						"name": "Crossbows, heavy",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/55"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532ab",
+						"index": 77,
+						"type": "Gaming Sets",
+						"name": "Dice Set",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/77"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532b5",
+						"index": 86,
+						"type": "Musical Instruments",
+						"name": "Lyre",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/86"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532c7",
+						"index": 106,
+						"type": "Skills",
+						"name": "Skill: Animal Handling",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/106"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532c1",
+						"index": 97,
+						"type": "Vehicles",
+						"name": "Land Vehicles",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/97"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532b7",
+						"index": 88,
+						"type": "Musical Instruments",
+						"name": "Pan flute",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/88"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532d1",
+						"index": 116,
+						"type": "Skills",
+						"name": "Skill: Perception",
+						"classes": [],
+						"races": [
+							{
+								"name": "Elf",
+								"url": "http://www.dnd5eapi.co/api/races/2"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/116"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532bd",
+						"index": 93,
+						"type": "Other",
+						"name": "Herbalism Kit",
+						"classes": [
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/93"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153287",
+						"index": 20,
+						"type": "Weapons",
+						"name": "Martial weapons",
+						"classes": [
+							{
+								"name": "Barbarian",
+								"url": "http://www.dnd5eapi.co/api/classes/1"
+							},
+							{
+								"name": "Fighter",
+								"url": "http://www.dnd5eapi.co/api/classes/5"
+							},
+							{
+								"name": "Paladin",
+								"url": "http://www.dnd5eapi.co/api/classes/7"
+							},
+							{
+								"name": "Ranger",
+								"url": "http://www.dnd5eapi.co/api/classes/8"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/20"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532d7",
+						"index": 121,
+						"type": "Skills",
+						"name": "Skill: Stealth",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/121"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532a4",
+						"index": 61,
+						"type": "Artisan's Tools",
+						"name": "Carpenter's tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/61"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532a3",
+						"index": 69,
+						"type": "Artisan's Tools",
+						"name": "Painter's supplies",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/69"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532c2",
+						"index": 98,
+						"type": "Vehicles",
+						"name": "Water Vehicles",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/98"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532aa",
+						"index": 76,
+						"type": "Artisan's Tools",
+						"name": "Forgery kit",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/76"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532b2",
+						"index": 82,
+						"type": "Musical Instruments",
+						"name": "Drum",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/82"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532d3",
+						"index": 115,
+						"type": "Skills",
+						"name": "Skill: Nature",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/115"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532bc",
+						"index": 94,
+						"type": "Other",
+						"name": "Navigator's Tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/94"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215329a",
+						"index": 50,
+						"type": "Weapons",
+						"name": "War picks",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/50"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532b1",
+						"index": 83,
+						"type": "Musical Instruments",
+						"name": "Dulcimer",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/83"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532b9",
+						"index": 91,
+						"type": "Other",
+						"name": "Disguise Kit",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/91"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532c9",
+						"index": 104,
+						"type": "Saving Throws",
+						"name": "Saving Throw: CHA",
+						"classes": [
+							{
+								"name": "Bard",
+								"url": "http://www.dnd5eapi.co/api/classes/2"
+							},
+							{
+								"name": "Cleric",
+								"url": "http://www.dnd5eapi.co/api/classes/3"
+							},
+							{
+								"name": "Paladin",
+								"url": "http://www.dnd5eapi.co/api/classes/7"
+							},
+							{
+								"name": "Sorcerer",
+								"url": "http://www.dnd5eapi.co/api/classes/10"
+							},
+							{
+								"name": "Warlock",
+								"url": "http://www.dnd5eapi.co/api/classes/11"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/104"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532cd",
+						"index": 111,
+						"type": "Skills",
+						"name": "Skill: Insight",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/111"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532c5",
+						"index": 102,
+						"type": "Saving Throws",
+						"name": "Saving Throw: INT",
+						"classes": [
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							},
+							{
+								"name": "Rogue",
+								"url": "http://www.dnd5eapi.co/api/classes/9"
+							},
+							{
+								"name": "Wizard",
+								"url": "http://www.dnd5eapi.co/api/classes/12"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/102"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532ad",
+						"index": 70,
+						"type": "Artisan's Tools",
+						"name": "Potter's tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/70"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532a2",
+						"index": 68,
+						"type": "Artisan's Tools",
+						"name": "Mason's tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/68"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215329d",
+						"index": 64,
+						"type": "Artisan's Tools",
+						"name": "Cook's utensils",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/64"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532b0",
+						"index": 80,
+						"type": "Gaming Sets",
+						"name": "Three-Dragon Ante set",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/80"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153280",
+						"index": 35,
+						"type": "Weapons",
+						"name": "Battleaxes",
+						"classes": [],
+						"races": [
+							{
+								"name": "Dwarf",
+								"url": "http://www.dnd5eapi.co/api/races/1"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/35"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532ca",
+						"index": 109,
+						"type": "Skills",
+						"name": "Skill: Deception",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/109"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153296",
+						"index": 56,
+						"type": "Weapons",
+						"name": "Longbows",
+						"classes": [],
+						"races": [
+							{
+								"name": "High Elf",
+								"url": "http://www.dnd5eapi.co/api/subraces/2"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/56"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532af",
+						"index": 71,
+						"type": "Artisan's Tools",
+						"name": "Smith's tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/71"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532bb",
+						"index": 92,
+						"type": "Other",
+						"name": "Forgery Kit",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/92"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532d8",
+						"index": 107,
+						"type": "Skills",
+						"name": "Skill: Arcana",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/107"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532c4",
+						"index": 99,
+						"type": "Saving Throws",
+						"name": "Saving Throw: STR",
+						"classes": [
+							{
+								"name": "Barbarian",
+								"url": "http://www.dnd5eapi.co/api/classes/1"
+							},
+							{
+								"name": "Fighter",
+								"url": "http://www.dnd5eapi.co/api/classes/5"
+							},
+							{
+								"name": "Monk",
+								"url": "http://www.dnd5eapi.co/api/classes/6"
+							},
+							{
+								"name": "Ranger",
+								"url": "http://www.dnd5eapi.co/api/classes/8"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/99"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153297",
+						"index": 57,
+						"type": "Weapons",
+						"name": "Nets",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/57"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532d0",
+						"index": 114,
+						"type": "Skills",
+						"name": "Skill: Medicine",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/114"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532b6",
+						"index": 79,
+						"type": "Gaming Sets",
+						"name": "Playing card set",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/79"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153293",
+						"index": 52,
+						"type": "Weapons",
+						"name": "Whips",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/52"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532be",
+						"index": 95,
+						"type": "Other",
+						"name": "Poisoner's Kit",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/95"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215329b",
+						"index": 51,
+						"type": "Weapons",
+						"name": "Warhammers",
+						"classes": [],
+						"races": [
+							{
+								"name": "Dwarf",
+								"url": "http://www.dnd5eapi.co/api/races/1"
+							}
+						],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/51"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532ba",
+						"index": 89,
+						"type": "Musical Instruments",
+						"name": "Shawm",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/89"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532b8",
+						"index": 90,
+						"type": "Musical Instruments",
+						"name": "Viol",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/90"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532a9",
+						"index": 75,
+						"type": "Artisan's Tools",
+						"name": "Disguise kit",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/75"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532d5",
+						"index": 119,
+						"type": "Skills",
+						"name": "Skill: Religion",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/119"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532d4",
+						"index": 118,
+						"type": "Skills",
+						"name": "Skill: Persuasion",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/118"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532ac",
+						"index": 78,
+						"type": "Gaming Sets",
+						"name": "Dragonchess set",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/78"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532b4",
+						"index": 84,
+						"type": "Musical Instruments",
+						"name": "Flute",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/84"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532cb",
+						"index": 110,
+						"type": "Skills",
+						"name": "Skill: History",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/110"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153298",
+						"index": 58,
+						"type": "Artisan's Tools",
+						"name": "Alchemist's supplies",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/58"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532ce",
+						"index": 112,
+						"type": "Skills",
+						"name": "Skill: Intimidation",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/112"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f72153262",
+						"index": 4,
+						"type": "Armor",
+						"name": "All armor",
+						"classes": [
+							{
+								"name": "Fighter",
+								"url": "http://www.dnd5eapi.co/api/classes/5"
+							},
+							{
+								"name": "Paladin",
+								"url": "http://www.dnd5eapi.co/api/classes/7"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/4"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532c3",
+						"index": 101,
+						"type": "Saving Throws",
+						"name": "Saving Throw: CON",
+						"classes": [
+							{
+								"name": "Barbarian",
+								"url": "http://www.dnd5eapi.co/api/classes/1"
+							},
+							{
+								"name": "Fighter",
+								"url": "http://www.dnd5eapi.co/api/classes/5"
+							},
+							{
+								"name": "Sorcerer",
+								"url": "http://www.dnd5eapi.co/api/classes/10"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/101"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532a1",
+						"index": 67,
+						"type": "Artisan's Tools",
+						"name": "Leatherworker's tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/67"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215329f",
+						"index": 60,
+						"type": "Artisan's Tools",
+						"name": "Calligrapher's supplies",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/60"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532cf",
+						"index": 113,
+						"type": "Skills",
+						"name": "Skill: Investigation",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/113"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532d9",
+						"index": 100,
+						"type": "Saving Throws",
+						"name": "Saving Throw: DEX",
+						"classes": [
+							{
+								"name": "Bard",
+								"url": "http://www.dnd5eapi.co/api/classes/2"
+							},
+							{
+								"name": "Monk",
+								"url": "http://www.dnd5eapi.co/api/classes/6"
+							},
+							{
+								"name": "Ranger",
+								"url": "http://www.dnd5eapi.co/api/classes/8"
+							},
+							{
+								"name": "Rogue",
+								"url": "http://www.dnd5eapi.co/api/classes/9"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/100"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532a8",
+						"index": 74,
+						"type": "Artisan's Tools",
+						"name": "Woodcarver's tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/74"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532a6",
+						"index": 73,
+						"type": "Artisan's Tools",
+						"name": "Weaver's tools",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/73"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532c6",
+						"index": 105,
+						"type": "Skills",
+						"name": "Skill: Acrobatics",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/105"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532c8",
+						"index": 103,
+						"type": "Saving Throws",
+						"name": "Saving Throw: WIS",
+						"classes": [
+							{
+								"name": "Cleric",
+								"url": "http://www.dnd5eapi.co/api/classes/3"
+							},
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							},
+							{
+								"name": "Paladin",
+								"url": "http://www.dnd5eapi.co/api/classes/7"
+							},
+							{
+								"name": "Warlock",
+								"url": "http://www.dnd5eapi.co/api/classes/11"
+							},
+							{
+								"name": "Wizard",
+								"url": "http://www.dnd5eapi.co/api/classes/12"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/103"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532b3",
+						"index": 85,
+						"type": "Musical Instruments",
+						"name": "Lute",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/85"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532d6",
+						"index": 120,
+						"type": "Skills",
+						"name": "Skill: Sleight of Hand",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/120"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532cc",
+						"index": 108,
+						"type": "Skills",
+						"name": "Skill: Athletics",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/108"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532d2",
+						"index": 117,
+						"type": "Skills",
+						"name": "Skill: Performance",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/117"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532da",
+						"index": 122,
+						"type": "Skills",
+						"name": "Skill: Survival",
+						"classes": [],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/122"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f7215327f",
+						"index": 32,
+						"type": "Weapons",
+						"name": "Darts",
+						"classes": [
+							{
+								"name": "Druid",
+								"url": "http://www.dnd5eapi.co/api/classes/4"
+							},
+							{
+								"name": "Sorcerer",
+								"url": "http://www.dnd5eapi.co/api/classes/10"
+							},
+							{
+								"name": "Wizard",
+								"url": "http://www.dnd5eapi.co/api/classes/12"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/32"
+					},
+					{
+						"_id": "58f40b99c9e7ce9f721532c0",
+						"index": 96,
+						"type": "Other",
+						"name": "Thieves' Tools",
+						"classes": [
+							{
+								"name": "Rogue",
+								"url": "http://www.dnd5eapi.co/api/classes/9"
+							}
+						],
+						"races": [],
+						"url": "http://www.dnd5eapi.co/api/proficiencies/96"
+					}
+				]
+			}
+		}
+	]
+}
