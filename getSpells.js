@@ -34,23 +34,44 @@ function httpGetRequest(rqstUrl,flName) {
     res.on('end', () => {
       try {
         const parsedData = JSON.parse(rawResponse);
-        const transformedData = parsedData.map(spell => {
-          return {
-            id: spell.index,
-            name: spell.name,
-            desc: spell.desc,
-            range: spell.range,
-            school: spell.school.name,
-            classes: spell.classes.map(class => class.name)
-          }
-        });
-        var listString = JSON.stringify(transformedData, null, "\t");
-        list.push(listString);
-        fs.writeFile("./data/spells/spellsData.json", list, "utf8");
-        //console.log("write: "+flName+".json");
-        
-        
-        
+        const spellUrls = parsedData.results.map(spellRef => spellRef.url);
+
+        let spells = [];
+        let progress = 1;
+
+        //note: this could be too fast if the api rate limits
+        //      since these are async calls, this will not work consistently in js.
+        //      because of this, we use a progress counter to ensure that the code after this for loop is run at the right time.
+        spellUrls.forEach(url => {
+          http.get(url, res => {
+            // todo: request for each actual object and add it to the spells array
+            res.setEncoding('utf8');
+            let rawSpell = '';
+            res.on('data', chunk => { rawSpell += chunk; });
+            res.on('end', () => {
+              spells.push(JSON.parse(rawSpell));
+              if(spellUrls.length === ++progress)
+                saveSpells();
+            });
+          })
+        })
+
+        function saveSpells() {
+          const transformedData = spells.map(spell => {
+            return {
+              id: spell.index,
+              name: spell.name,
+              desc: spell.desc,
+              range: spell.range,
+              school: spell.school.name,
+              classes: spell.classes.map(c => c.name),
+            }
+          });
+
+          var serializedSpells = JSON.stringify(transformedData, null, "\t");
+          fs.writeFile("./data/spells/spellsData.json", serializedSpells, "utf8");
+        }
+
       } catch (e) {
         console.error(e.message);
       }
