@@ -44,14 +44,9 @@ function main() {
     });
 }
 
-function printAsString(data){
-    console.log(JSON.stringify(data, null, "\t"));
-}
-
 function getData(d){
     var rUrl = d.url;
     var resourceName = d.resourceName;
-    var name = d.name;
     
     http.get(rUrl, (res) => {
     const { statusCode } = res;
@@ -67,7 +62,6 @@ function getData(d){
     }
     if (error) {
       console.error(error.message);
-      // consume response data to free up memory
       res.resume();
       return;
     }
@@ -106,11 +100,9 @@ function setCompleteData(d){
     completeData.resources.forEach(function(e){
     e.data.results = [];
     });
-    //printAsString(completeData.resources);
 }
 
 function writeCompleteData(data){
     var dataString = JSON.stringify(data, null, "\t");
     fs.writeFile(outputFile, dataString, "utf8");
-    //printAsString(completeData.resources);
 }
