@@ -39,12 +39,11 @@ function httpGetRequest(rqstUrl,flName) {
         let spells = [];
         let progress = 1;
 
-        //note: this could be too fast if the api rate limits
+        //note: this could be too fast if the api rate limits (or blocks subsequent fast calls)
         //      since these are async calls, this will not work consistently in js.
         //      because of this, we use a progress counter to ensure that the code after this for loop is run at the right time.
         spellUrls.forEach(url => {
           http.get(url, res => {
-            // todo: request for each actual object and add it to the spells array
             res.setEncoding('utf8');
             let rawSpell = '';
             res.on('data', chunk => { rawSpell += chunk; });
