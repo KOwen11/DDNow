@@ -24,7 +24,9 @@ fs.readFile(inputFile, function(err, data){
         var iData = JSON.parse(data);
         setCompleteData(iData, 'true');
 });
+
 main();
+
 function main() {
     fs.readFile(inputFile, function(err, data){
         if(err){
@@ -114,4 +116,3 @@ function writeCompleteData(data){
     fs.writeFile(outputFile, dataString, "utf8");
     //printAsString(completeData.resources);
 }
-main();

@@ -66,4 +66,4 @@ function init(path, input) {
 }
 
 
-crawl();
+init();
